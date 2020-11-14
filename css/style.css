@@ -20,25 +20,23 @@ body {
 
 .logo-conteiner {
     width: 500px;
-    height: 200px;
     float: left;
-    /* border: 1px solid blue; */
 }
 
-.logo-conteiner img {
-    margin-left: 402px;
-    margin-top: 57px;
+
+.block-nav {
+    margin: 0 auto;
+    padding: 30px;
 }
 
+.block-nav img {
+    display: block;
+}
 
 .nav {
     width: 1420px;
-    height: 200px;
-    float: right;
-    padding: 60px 0 0 370px;
-    /*border: 1px solid green;*/
-}
 
+}
 
 .nav a {
     display: inline-block;
@@ -63,22 +61,19 @@ ul > li > a:hover {
 }
 
 .laptop-conteiner {
-    width: 880px;
-    height: 500px;
     float: left;
-    padding: 70px 0 0 510px;
+    margin-top: 30px;
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 48px;
-    padding: 50px 120px;
+    padding: 0 0 50px 0;
 }
 
 .div4 p {
-    width: 650px;
-    padding-left: 120px;
+    width: 500px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -86,9 +81,8 @@ h1 {
 }
 
 .div4 {
-    width: 1040px;
-    height: 500px;
     float: right;
+    padding: 0 400px 0 150px;
 }
 
 .button {
@@ -96,7 +90,6 @@ h1 {
     width: 225px;
     height: 65px;
     background: #34547A;
-    margin-left: 120px;
     margin-top: 50px;
 }
 
@@ -109,10 +102,22 @@ h1 {
     padding: 24px 50px
 }
 
-.logo-conteiner, .div4, .laptop-conteiner, .nav {
+
+.first-line {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 50px 300px;
     background-color: #EEEFF1;
 }
 
+.srcond-line {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 450px;
+    float: left;
+    background-color: #EEEFF1;
+    padding: 100px 100px 100px 400px;
+}
 
 /*-----------ABOUT------*/
 
